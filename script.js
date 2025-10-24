@@ -1,6 +1,6 @@
 //your JS code here. If required.
-const select = querySelctor('#colorSelect');
-const btn = querySelector('input[type="button"]');
-btn.addEvenListener('click',()=>{
+const select = document.querySelector('#colorSelect');
+const btn = document.querySelector('input[type="button"]');
+btn.addEventListener('click',()=>{
 	select.remove(select.selectedIndex)
 })
